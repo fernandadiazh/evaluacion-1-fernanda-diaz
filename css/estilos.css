@@ -1,0 +1,854 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #F28066;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    background-color: #ffffff;
+}
+
+
+
+.contenedor {
+    width: 90%;
+    max-width: 1110px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.contenedor-registro{
+    background-color: #F4F4E5;
+    width: 90%;
+    max-width: 1110px;
+    margin: auto;
+    overflow: hidden;
+    text-align: center;
+}
+
+.contenedor-imagenes{
+    text-align: justify;
+    margin: 20px;
+}
+
+.imagenes{
+    width: 40px;
+}
+
+/*Footer*/
+
+footer{
+    background-color: #1e1d2f;
+    width: 100%;
+
+}
+.container-footer-all{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px;
+}
+
+.contenedor-foo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.columna1{
+    max-width: 600px;
+}
+
+.columna1 h1{
+    color: #fff;
+    font-size: 22px;
+}
+
+.columna1 p{
+    font-size: 14px;
+    color: #C7C7C7;
+    margin-top: 20px;
+}
+
+
+.fila{
+    margin-top: 20px;
+    display: flex;
+}
+
+.fila img{
+    width: 36px;
+    height: 36px;
+}
+
+.fila label{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #bfbdc6;
+    font-size: 13px;
+}
+
+.columna3{
+    color: #fff;
+    max-width: 600px;
+}
+
+.columna3 h1{
+    font-size: 22px;
+}
+
+.fila2{
+    margin-top: 20px;
+    display: flex;
+}
+
+.fila2 img{
+    width: 36px;
+    height: 36px;
+}
+
+.fila2 label{
+    margin-top: 10px;
+    margin-left:20px;
+    max-width: 150px;
+}
+
+.contenedor-web{
+    width: 100%;
+    background: #000000;
+
+}
+.footer{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 
+}
+
+.copyright{
+    color: #C7C7C7;
+    padding-left: 100px;
+}
+
+.copyright a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/**/
+
+coso{
+    color: #fff;
+    display: flex;
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    justify-content: center;
+    padding: 1.5rem;
+}
+
+.cardo{
+    
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    box-shadow: 2px .8rem, 1rem rgba(0,0,0,.05);
+
+}
+
+.img_data{
+    height: 25rem;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.bac_img1{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url('../img/qs1.jpg') center no-repeat;
+    background-size: cover;
+    z-index:  -1;
+    transition: transform 5s;
+}
+.bac_img2{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url('../img/qs2.jpg') center no-repeat;
+    background-size: cover;
+    z-index:  -1;
+    transition: transform 5s;
+}
+.bac_img3{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url('../img/qs3.jpg') center no-repeat;
+    background-size: cover;
+    z-index:  -1;
+    transition: transform 5s;
+}
+.bac_img4{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url('../img/qs4.jpg') center no-repeat;
+    background-size: cover;
+    z-index:  -1;
+    transition: transform 5s;
+}
+.bac_img5{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url('../img/Ref.PaineGrande/pgrande7.jpg') center no-repeat;
+    background-size: cover;
+    z-index:  -1;
+    transition: transform 5s;
+}
+.bac_img6{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url('../img/Ref.PaineGrande/pgrande2.jpg') center no-repeat;
+    background-size: cover;
+    z-index:  -1;
+    transition: transform 5s;
+}
+.bac_img7{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url('../img/Ref.PaineGrande/pgrande5.jpg') center no-repeat;
+    background-size: cover;
+    z-index:  -1;
+    transition: transform 5s;
+}
+.bac_img8{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url('../img/Ref.PaineGrande/pgrande14.jpg') center no-repeat;
+    background-size: cover;
+    z-index:  -1;
+    transition: transform 5s;
+}
+.bac_img9{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url('../img/Ref.PaineGrande/pgrande3.jpg') center no-repeat;
+    background-size: cover;
+    z-index:  -1;
+    transition: transform 5s;
+}
+.bac_img99{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url('../img/Ref.PaineGrande/pgrande11.jpg') center no-repeat;
+    background-size: cover;
+    z-index:  -1;
+    transition: transform 5s;
+}
+.bac_img98{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url('../img/Ref.PaineGrande/pgrande13.jpg') center no-repeat;
+    background-size: cover;
+    z-index:  -1;
+    transition: transform 5s;
+}
+.bac_img10{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url('../img/Ref.PaineGrande/pgrande8.jpg') center no-repeat;
+    background-size: cover;
+    z-index:  -1;
+    transition: transform 5s;
+}
+.bac_img11{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url('../img/Ref.Dickson/rf7.jpg') center no-repeat;
+    background-size: cover;
+    z-index:  -1;
+    transition: transform 5s;
+}
+.bac_img12{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url('../img/Ref.Dickson/da.jpeg') center no-repeat;
+    background-size: cover;
+    z-index:  -1;
+    transition: transform 5s;
+}
+.bac_img13{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url('../img/Ref.Dickson/rf9.jpg') center no-repeat;
+    background-size: cover;
+    z-index:  -1;
+    transition: transform 5s;
+}
+.bac_img14{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url('../img/Ref.Dickson/rf8.jpg') center no-repeat;
+    background-size: cover;
+    z-index:  -1;
+    transition: transform 5s;
+}
+.bac_img15{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url('../img/Ref.Torrecentral/tc1.jpg') center no-repeat;
+    background-size: cover;
+    z-index:  -1;
+    transition: transform 5s;
+}
+.bac_img16{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url('../img/Ref.Torrecentral/tc4.jpg') center no-repeat;
+    background-size: cover;
+    z-index:  -1;
+    transition: transform 5s;
+}
+.bac_img17{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url('../img/Ref.Torrecentral/tc2.jpg') center no-repeat;
+    background-size: cover;
+    z-index:  -1;
+    transition: transform 5s;
+}
+.bac_img18{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url('../img/Ref.Torrecentral/tc3.jpg') center no-repeat;
+    background-size: cover;
+    z-index:  -1;
+    transition: transform 5s;
+}
+.bac_img19{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url('../img/Ref.Elchileno/ec1.jpg') center no-repeat;
+    background-size: cover;
+    z-index:  -1;
+    transition: transform 5s;
+}
+.bac_img20{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url('../img/Ref.Elchileno/ec4.jpg') center no-repeat;
+    background-size: cover;
+    z-index:  -1;
+    transition: transform 5s;
+}
+.bac_img21{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url('../img/Ref.Elchileno/ec2.jpg') center no-repeat;
+    background-size: cover;
+    z-index:  -1;
+    transition: transform 5s;
+}
+.bac_img22{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url('../img/Ref.Elchileno/ec3.jpg') center no-repeat;
+    background-size: cover;
+    z-index:  -1;
+    transition: transform 5s;
+}
+.bac_img23{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url('../img/Ref.Loscuernos/lc1.jpg') center no-repeat;
+    background-size: cover;
+    z-index:  -1;
+    transition: transform 5s;
+}
+.bac_img24{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url('../img/Ref.Loscuernos/lc2.jpg') center no-repeat;
+    background-size: cover;
+    z-index:  -1;
+    transition: transform 5s;
+}
+.bac_img25{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url('../img/Ref.Loscuernos/lc3.jpg') center no-repeat;
+    background-size: cover;
+    z-index:  -1;
+    transition: transform 5s;
+}
+.bac_img26{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url('../img/Ref.Loscuernos/lc4.jpg') center no-repeat;
+    background-size: cover;
+    z-index:  -1;
+    transition: transform 5s;
+}
+.bac_img27{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url('../img/Ref.Loscuernos/lc5.jpg') center no-repeat;
+    background-size: cover;
+    z-index:  -1;
+    transition: transform 5s;
+}
+.bac_img28{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url('../img/Ref.seron/seron1.jpg') center no-repeat;
+    background-size: cover;
+    z-index:  -1;
+    transition: transform 5s;
+}
+.bac_img29{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url('../img/Ref.seron/seron2.jpg') center no-repeat;
+    background-size: cover;
+    z-index:  -1;
+    transition: transform 5s;
+}
+.bac_img30{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url('../img/Ref.Grey/gr1.jpg') center no-repeat;
+    background-size: cover;
+    z-index:  -1;
+    transition: transform 5s;
+}
+.bac_img31{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url('../img/Ref.Grey/gr3.jpg') center no-repeat;
+    background-size: cover;
+    z-index:  -1;
+    transition: transform 5s;
+}
+.bac_img32{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url('../img/Ref.Grey/gr2.jpg') center no-repeat;
+    background-size: cover;
+    z-index:  -1;
+    transition: transform 5s;
+}
+.bac_img33{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url('../img/Ref.Grey/gr4.jpg') center no-repeat;
+    background-size: cover;
+    z-index:  -1;
+    transition: transform 5s;
+}
+.bac_img34{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url('../img/Ref.Grey/gr5.jpg') center no-repeat;
+    background-size: cover;
+    z-index:  -1;
+    transition: transform 5s;
+}
+.bac_img35{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url('../img/Ref.Grey/gr7.jpg') center no-repeat;
+    background-size: cover;
+    z-index:  -1;
+    transition: transform 5s;
+}
+.bac_img36{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url('../img/Ref.Grey/gr6.jpg') center no-repeat;
+    background-size: cover;
+    z-index:  -1;
+    transition: transform 5s;
+}
+.bac_img37{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url('../img/Ref.Losperros/lp1.jpg') center no-repeat;
+    background-size: cover;
+    z-index:  -1;
+    transition: transform 5s;
+}
+.bac_img38{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url('../img/Ref.Losperros/lp2.jpg') center no-repeat;
+    background-size: cover;
+    z-index:  -1;
+    transition: transform 5s;
+}
+.bac_img39{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url('../img/ComoLlegar/cllegar.jpg') center no-repeat;
+    background-size: cover;
+    z-index:  -1;
+    transition: transform 5s;
+}
+.bac_img40{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url('../img/ComoLlegar/avion.jpg') center no-repeat;
+    background-size: cover;
+    z-index:  -1;
+    transition: transform 5s;
+}
+.bac_img41{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url('../img/ComoLlegar/bus.jpg') center no-repeat;
+    background-size: cover;
+    z-index:  -1;
+    transition: transform 5s;
+}
+.bac_img42{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url('../img/ComoLlegar/barco.jpg') center no-repeat;
+    background-size: cover;
+    z-index:  -1;
+    transition: transform 5s;
+}
+.bac_img43{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url('../img/Excursiones/ex1.jpg') center no-repeat;
+    background-size: cover;
+    z-index:  -1;
+    transition: transform 5s;
+}
+.bac_img44{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url('../img/Excursiones/ex2.jpg') center no-repeat;
+    background-size: cover;
+    z-index:  -1;
+    transition: transform 5s;
+}
+.bac_img45{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url('../img/Excursiones/ex3.jpg') center no-repeat;
+    background-size: cover;
+    z-index:  -1;
+    transition: transform 5s;
+}
+.bac_img46{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url('../img/Programas/mapa1.jpg') center no-repeat;
+    background-size: cover;
+    z-index:  -1;
+    transition: transform 5s;
+}
+.bac_img47{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url('../img/Programas/d1.jpg') center no-repeat;
+    background-size: cover;
+    z-index:  -1;
+    transition: transform 5s;
+}
+.bac_img48{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url('../img/Programas/d2.jpg') center no-repeat;
+    background-size: cover;
+    z-index:  -1;
+    transition: transform 5s;
+}
+
+
+.bac_imge{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url('../img/blog2.jpg') center no-repeat;
+    background-size: cover;
+    z-index:  -1;
+    transition: transform 5s;
+}
+.cardo:hover .bac_img{
+    transform: scale(1.5);
+}
+.cardo:hover .bac_imge{
+    transform: scale(1.5);
+}
+
+
+
+.date{
+    background-color: #A8BF56;
+    padding: 2rem 3rem;
+    position: relative;
+}
+.title{
+    color: white;
+    font-size: 3rem;
+    line-height: 1;
+}
+
+.subtitle{
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-bottom: 1rem 0 1.5rem 0;
+}
+
+.descri{
+    position: relative;
+
+}
+
+
+/*cartas*/
+.cta{
+    text-align: right;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.cta a{
+    background: var(--gradient-color);
+    -webkit-background-clip:text;
+    color: transparent;
+    position: relative;
+}
+
+.cta a::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -.5rem;
+    width: 100%;
+    height: 3px;
+    background: var(--gradient-color);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform .5s;
+}
+
+.cta a:hover::before{
+    transform: scaleX(1);
+}
+
+@media screen and (min-width: 600px){
+    .cardo{
+        flex-direction:row;
+        max-height: 78rem;
+    }
+    .carde{
+        flex-direction:row-reverse;
+        max-height: 78rem;
+    }
+    .img_data{
+        flex-basis: 100%;
+        height: unset;
+    }
+    .card_datail{
+        transform: translateX(-100%);
+        transition: transform .5s;
+    }
+    .cardo:hover .card_datail{
+        transform: translateX(0);
+    }
+    
+    .detalle{
+        flex-basis: 60%;
+    }
+    
+    .descri{
+        flex-basis: 60%;
+    }
+    
+   
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 1100px){
+    .contenedor-foo{
+        flex-wrap: wrap;
+
+    }
+
+    .columna1{
+        max-width: 100%;
+    }
+
+    .columna3{
+        margin-top: 40px;
+    }
+
+    
+
+}
